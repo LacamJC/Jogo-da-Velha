@@ -1,0 +1,63 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root
+{
+    --tam_quadrado: 165px ;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+}   
+
+.bloco
+{
+    background-color: rgba(255, 0, 0, 0.295);
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.placar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.pontos
+{
+    display: flex;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 1px solid black;
+    padding: 10px;
+    
+    font-weight: 1em; 
+}
